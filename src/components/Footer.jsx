@@ -5,7 +5,7 @@ import {
   Mail,
   Phone,
   MapPin,
-  Linkedin,
+  Facebook,
   Instagram,
   ArrowUp,
 } from "lucide-react";
@@ -104,26 +104,35 @@ export default function Footer() {
 
               <div className="flex items-center gap-3">
                 <MapPin size={18} />
-               <p className="text-white-700 leading-relaxed">
-                    <strong>Address:</strong>
-                    <br />
-                    House-8, Ekamara Park, Jaydev Vihar,
-                    <br />
-                    Bhubaneswar, Odisha – 751001
-                  </p>
+                <p className="text-white-700 leading-relaxed">
+                  <strong>Address:</strong>
+                  <br />
+                  House-8, Ekamara Park, Jaydev Vihar,
+                  <br />
+                  Bhubaneswar, Odisha – 751001
+                </p>
               </div>
             </div>
 
             {/* SOCIAL */}
             <div className="flex gap-4 mt-4">
-              {[Linkedin, Instagram].map((Icon, i) => (
-                <a
-                  key={i}
-                  className="p-2 rounded-lg bg-white/10 hover:bg-white/20 transition cursor-pointer"
-                >
-                  <Icon size={18} />
-                </a>
-              ))}
+              <a
+                href="https://www.facebook.com/profile.php?id=61586756799923"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 rounded-lg bg-white/10 hover:bg-white/20 transition cursor-pointer"
+              >
+                <Facebook size={18} />
+              </a>
+
+              <a
+                href="https://www.instagram.com/nilamanipandacooling/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 rounded-lg bg-white/10 hover:bg-white/20 transition cursor-pointer"
+              >
+                <Instagram size={18} />
+              </a>
             </div>
           </div>
         </div>
