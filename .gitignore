@@ -1,3 +1,7 @@
 # NP Cooling Solutions
 
 Professional HVAC & Cooling Solutions Website
+node_modules/
+.env
+dist
+build
