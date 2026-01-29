@@ -16,12 +16,8 @@ export const installations = [
     title: "Premium Restaurant HVAC & Ambience Cooling Setup"
   },
   {
-    src: "/installations/inst5.jpg",
-    title: "Indoor Ducting & Ventilation System Installation"
-  },
-  {
-    src: "/installations/inst6.png",
-    title: "Split AC Electrical & Indoor Unit Installation"
+    src: "/installations/inst12.jpeg",
+    title: "Banquet Hall Floor Standing AC Installation"
   },
   {
     src: "/installations/inst7.png",
@@ -32,11 +28,31 @@ export const installations = [
     title: "AC Piping, Drainage & Electrical Work"
   },
   {
+    src: "/installations/inst16.jpeg",
+    title: "Commercial VRF Outdoor Units Installation with Refrigerant Piping"
+  },
+  {
     src: "/installations/inst9.jpg",
     title: "Commercial VRF Outdoor Unit Installation"
   },
   {
     src: "/installations/inst10.jpg",
     title: "Ceiling Cassette AC & Refrigerant Piping Work"
-  }
+  },
+  {
+    src: "/installations/inst11.jpeg",
+    title: "High-Efficiency VRF Outdoor Unit Installation"
+  },
+  {
+    src: "/installations/inst13.jpeg",
+    title: "Centralized Chiller Plant Outdoor Setup"
+  },
+  {
+    src: "/installations/inst14.jpeg",
+    title: "Insulated Chilled Water Piping Installation"
+  },
+  {
+    src: "/installations/inst15.jpeg",
+    title: "Industrial HVAC System Outdoor Installation"
+  },
 ];
