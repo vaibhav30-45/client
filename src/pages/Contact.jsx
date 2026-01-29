@@ -34,9 +34,9 @@ export default function Contact() {
                   <p className="text-gray-700 leading-relaxed">
                     <strong>Address:</strong>
                     <br />
-                    House-8, Ekamara Park, Jaydev Vihar,
+                    Plot No: KC/53  , Kharabela Complex  , Kolathia, Khandagiri  
                     <br />
-                    Bhubaneswar, Odisha – 751001
+                    Bhubaneswar, Odisha – 751030
                   </p>
                 </div>
 
