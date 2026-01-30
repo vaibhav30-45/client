@@ -3,7 +3,7 @@ import PageWrapper from "../components/PageWrapper";
 import ClientCard from "../components/ClientCard";
 import ClientModal from "../components/ClientModal";
 import { clients } from "../data/clients";
-
+import { Helmet } from "react-helmet-async";
 export default function Clients() {
   const [activeClient, setActiveClient] = useState(null);
 
@@ -30,6 +30,19 @@ export default function Clients() {
 
   return (
     <PageWrapper>
+       <Helmet>
+        <title>Our Clients | NP Cooling Solutions Odisha</title>
+
+        <meta
+          name="description"
+          content="Explore our trusted clients and partners who rely on NP Cooling Solutions for professional HVAC and industrial cooling services in Odisha."
+        />
+
+        <link
+          rel="canonical"
+          href="https://npcoolingsolution.com/clients"
+        />
+      </Helmet>
       {/* ✅ SEO CLIENT SCHEMA */}
       <script
         type="application/ld+json"
@@ -41,9 +54,10 @@ export default function Clients() {
       <section className="max-w-7xl mx-auto px-4 py-16">
         {/* HEADER */}
         <div className="text-center mb-14">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary uppercase mb-4">
-            Our Valuable Clients
-          </h2>
+          <h1 className="text-3xl md:text-4xl font-bold text-primary uppercase mb-4">
+  Our Valuable Clients
+</h1>
+
           <p className="text-gray-600 max-w-2xl mx-auto">
             We are proud to work with reputed organizations across healthcare,
             hospitality, industrial, and commercial sectors.

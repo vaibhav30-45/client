@@ -138,19 +138,27 @@ export default function Home() {
             onTouchEnd={() => (brandPaused.current = false)}
           >
             {[...brands, ...brands].map((brand, index) => (
-              <div
-                key={index}
-                className="min-w-[180px] sm:min-w-[220px] flex justify-center"
-              >
-                <div className="p-4 rounded-xl transition-all duration-300 ease-out hover:scale-110 hover:bg-gray-50 hover:shadow-lg">
-                  <img
-                    src={brand.logo}
-                    alt={brand.name}
-                    className="h-16 sm:h-20 object-contain transition-all duration-300 hover:drop-shadow-[0_12px_30px_rgba(59,130,246,0.35)]"
-                  />
-                </div>
-              </div>
-            ))}
+  <div
+    key={index}
+    className="min-w-[180px] sm:min-w-[220px] flex justify-center"
+  >
+    <a
+      href={brand.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="p-4 rounded-xl transition-all duration-300 ease-out 
+                 hover:scale-110 hover:bg-gray-50 hover:shadow-lg"
+    >
+      <img
+        src={brand.logo}
+        alt={`${brand.name} brand logo`}
+        className="h-16 sm:h-20 object-contain transition-all duration-300 
+                   hover:drop-shadow-[0_12px_30px_rgba(59,130,246,0.35)]"
+      />
+    </a>
+  </div>
+))}
+
           </div>
         </div>
       </section>
@@ -243,7 +251,14 @@ export default function Home() {
                 key={index}
                 className="min-w-[220px] sm:min-w-[260px] md:min-w-[300px]"
               >
-                <ClientCard client={client} />
+                <a
+      href={client.url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="block"
+      aria-label={`Visit ${client.name} website`}
+    >
+                <ClientCard client={client} /></a>
               </div>
             ))}
           </div>

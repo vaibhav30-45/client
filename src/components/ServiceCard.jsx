@@ -1,10 +1,16 @@
 import { motion } from "framer-motion";
+import { useNavigate } from "react-router-dom";
+
+
+  
 
 export default function ServiceCard({ icon: Icon, title, description }) {
+  const navigate = useNavigate();
   return (
     <motion.div
       whileHover={{ y: -8 }}
       transition={{ type: "spring", stiffness: 300 }}
+      onClick={() => navigate("/services")}
       className="group bg-white rounded-xl p-6 shadow-md hover:shadow-2xl transition-all duration-300 border border-gray-100"
     >
       {/* ICON */}
