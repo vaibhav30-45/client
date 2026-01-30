@@ -6,6 +6,7 @@ export const clients = [
     feedback: "Reliable HVAC support for large-scale operations.",
     rating: 5,
     industry: "Power Distribution",
+      url:"https://www.tpcodl.in"
   },
   {
     name: "TPSODL",
@@ -14,6 +15,7 @@ export const clients = [
     feedback: "Professional service and timely execution.",
     rating: 4,
     industry: "Power Distribution",
+    url:"https://www.tpcodl.in"
   },
   {
     name: "RSPL",
@@ -22,6 +24,8 @@ export const clients = [
     feedback: "Excellent industrial cooling solutions.",
     rating: 4,
     industry: "Manufacturing",
+url: "https://www.rsplindia.com/",
+
   },
   {
     name: "Hotel Rajmahal",
@@ -30,6 +34,7 @@ export const clients = [
     feedback: "Comfortable and efficient HVAC systems.",
     rating: 5,
     industry: "Hospitality",
+    url: "https://www.hotelrajmahalbhubaneswar.com",
   },
   {
     name: "Hotel Richi",
@@ -38,6 +43,7 @@ export const clients = [
     feedback: "Top-quality cooling and maintenance.",
     rating: 4,
     industry: "Hospitality",
+    url:"https://richihotels.com/"
   },
   {
     name: "Kalinga Hospital",
@@ -46,6 +52,7 @@ export const clients = [
     feedback: "Precision cooling for critical environments.",
     rating: 5,
     industry: "Healthcare",
+    url: "https://www.kalingahospital.com/",
   },
   {
     name: "Sai Seva Sadan",
@@ -62,6 +69,7 @@ export const clients = [
     feedback: "Smooth execution for campus-wide HVAC.",
     rating: 5,
     industry: "Education",
+    url:"https://xim.edu.in"
   },
   {
     name: "Hotel Nicky",
@@ -70,6 +78,7 @@ export const clients = [
     feedback: "Very responsive support team.",
     rating: 4,
     industry: "Hospitality",
+    url:"https://hotelnicky.in"
   },
   {
     name: "Ashwani Hospital",
@@ -78,6 +87,7 @@ export const clients = [
     feedback: "Clean and professional installation.",
     rating: 5,
     industry: "Healthcare",
+    url:"https://ashwinigroup.org"
   },
   {
     name: "IDCO Tower",
@@ -126,6 +136,7 @@ export const clients = [
     feedback: "Strong technical expertise.",
     rating: 5,
     industry: "Mining",
+    url:"https://www.mcl.gov.in"
   },
   {
     name: "AIIMS",
@@ -134,6 +145,7 @@ export const clients = [
     feedback: "Precision & compliance-focused HVAC.",
     rating: 5,
     industry: "Healthcare",
+    url:"https://aiimsbhubaneswar.nic.in"
   },
   {
     name: "Jindal",
@@ -142,5 +154,6 @@ export const clients = [
     feedback: "High-performance industrial systems.",
     rating: 5,
     industry: "Industrial",
+    url:"https://www.jindalsteelpower.com"
   },
 ];

@@ -1,8 +1,21 @@
 import PageWrapper from "../components/PageWrapper";
-
+import { Helmet } from "react-helmet-async";
 export default function About() {
   return (
     <PageWrapper>
+      <Helmet>
+        <title>About NP Cooling Solutions | HVAC Experts in Odisha</title>
+
+        <meta
+          name="description"
+          content="NP Cooling Solutions is a trusted HVAC and electrical services company in Odisha, established in 2017, specializing in commercial and industrial projects."
+        />
+
+        <link
+          rel="canonical"
+          href="https://npcoolingsolution.com/about"
+        />
+      </Helmet>
       {/* ================= ABOUT HEADER ================= */}
       <section className="max-w-7xl mx-auto px-4 pt-20 pb-14 text-center">
         <h1 className="text-3xl md:text-4xl font-bold text-primary uppercase mb-4">

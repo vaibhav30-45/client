@@ -1,10 +1,23 @@
 import PageWrapper from "../components/PageWrapper";
 import ContactForm from "../components/ContactForm";
 import { Mail, Phone, MapPin } from "lucide-react";
-
+import { Helmet } from "react-helmet-async";
 export default function Contact() {
   return (
     <PageWrapper>
+      <Helmet>
+        <title>Contact NP Cooling Solutions | HVAC Services in Odisha</title>
+
+        <meta
+          name="description"
+          content="Contact NP Cooling Solutions for HVAC installation, repair, and industrial cooling services across Odisha. Get in touch with our expert team today."
+        />
+
+        <link
+          rel="canonical"
+          href="https://npcoolingsolution.com/contact"
+        />
+      </Helmet>
       {/* ================= CONTACT HEADER ================= */}
       <section className="max-w-7xl mx-auto px-4 pt-20 pb-14 text-center">
         <h1 className="text-3xl md:text-4xl font-bold text-primary uppercase mb-4">

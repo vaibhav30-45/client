@@ -10,7 +10,7 @@ import {
   Cpu,
   Square,
 } from "lucide-react";
-
+import { Helmet } from "react-helmet-async";
 
  export const services = [
     {
@@ -72,13 +72,25 @@ import {
   export default function Services() {
   return (
     <PageWrapper>
+      <Helmet>
+        <title>HVAC Services in Odisha | NP Cooling Solution</title>
+        <meta
+          name="description"
+          content="NP Cooling Solutions provides HVAC installation, repair, maintenance, and industrial cooling services across Odisha."
+        />
+        <link
+          rel="canonical"
+          href="https://npcoolingsolution.com/services"
+        />
+      </Helmet>
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4">
         {/* SECTION HEADER */}
         <div className="text-center mb-14">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary uppercase mb-4">
-            Our Services
-          </h2>
+          <h1 className="text-3xl md:text-4xl font-bold text-primary uppercase mb-4">
+  Our Services
+</h1>
+
           <p className="text-gray-600 max-w-2xl mx-auto">
             NP Cooling Solutions offers a complete range of HVAC and cooling
             services for commercial and industrial projects.
